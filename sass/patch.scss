@@ -1,0 +1,46 @@
+$light-blue : #3498db;
+
+
+
+
+
+
+
+
+
+
+body{
+	background : url(http://subtlepatterns.com/patterns/dark_exa.png);
+}
+
+.title {
+	  background: $light-blue;
+  text-shadow: none;
+  text-align: center;
+  font-style: normal;
+}
+
+.form-signin {
+	box-shadow:none;
+
+
+.btn-lg {
+	  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  text-transform: uppercase;
+  background: $light-blue;
+
+&.btn-login {
+	border:none;
+}
+&:hover {
+	background: $light-blue;
+		}
+	}
+.alert_access {
+	text-align: center;
+	width: 100%;
+	display: inline-block;
+}
+}

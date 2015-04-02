@@ -1,0 +1,39 @@
+/* line 12, ../sass/patch.scss */
+body {
+  background: url(http://subtlepatterns.com/patterns/dark_exa.png);
+}
+
+/* line 16, ../sass/patch.scss */
+.title {
+  background: #3498db;
+  text-shadow: none;
+  text-align: center;
+  font-style: normal;
+}
+
+/* line 23, ../sass/patch.scss */
+.form-signin {
+  box-shadow: none;
+}
+/* line 27, ../sass/patch.scss */
+.form-signin .btn-lg {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  text-transform: uppercase;
+  background: #3498db;
+}
+/* line 34, ../sass/patch.scss */
+.form-signin .btn-lg.btn-login {
+  border: none;
+}
+/* line 37, ../sass/patch.scss */
+.form-signin .btn-lg:hover {
+  background: #3498db;
+}
+/* line 41, ../sass/patch.scss */
+.form-signin .alert_access {
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+}
