@@ -1,39 +1,84 @@
-/* line 12, ../sass/patch.scss */
+/* line 2, ../sass/patch.scss */
+.mont-fonts, .title, .form-signin .btn-lg {
+  font-family: 'montserrat';
+}
+
+/* line 8, ../sass/patch.scss */
 body {
   background: url(http://subtlepatterns.com/patterns/dark_exa.png);
 }
 
-/* line 16, ../sass/patch.scss */
+/* line 12, ../sass/patch.scss */
 .title {
-  background: #3498db;
+  background: transparent;
   text-shadow: none;
   text-align: center;
   font-style: normal;
+  text-transform: uppercase;
+  font-weight: 400;
 }
 
-/* line 23, ../sass/patch.scss */
+/* line 22, ../sass/patch.scss */
 .form-signin {
   box-shadow: none;
+  background: transparent;
+  width: 420px;
 }
-/* line 27, ../sass/patch.scss */
+/* line 28, ../sass/patch.scss */
 .form-signin .btn-lg {
   position: relative;
   left: 50%;
   transform: translateX(-50%);
-  text-transform: uppercase;
+  text-transform: capitalize;
   background: #3498db;
+  font-weight: 400;
+  padding: 6px 0 !important;
 }
-/* line 34, ../sass/patch.scss */
+/* line 38, ../sass/patch.scss */
 .form-signin .btn-lg.btn-login {
   border: none;
 }
-/* line 37, ../sass/patch.scss */
+/* line 41, ../sass/patch.scss */
 .form-signin .btn-lg:hover {
   background: #3498db;
 }
-/* line 41, ../sass/patch.scss */
+/* line 45, ../sass/patch.scss */
 .form-signin .alert_access {
   text-align: center;
   width: 100%;
   display: inline-block;
+}
+/* line 50, ../sass/patch.scss */
+.form-signin .form-control {
+  text-align: center;
+  padding: 8px 0;
+  margin: 5px 0;
+}
+/* line 55, ../sass/patch.scss */
+.form-signin .form_container {
+  border: none;
+  border-radius: 4px;
+  height: 274px;
+  text-align: center;
+  box-shadow: 0px -1px 24px -3px rgba(235, 228, 235, 0.7);
+  padding: 14px 24px;
+}
+/* line 62, ../sass/patch.scss */
+.form-signin .form_container .form_title {
+  color: rgba(0, 0, 0, 0.8);
+  font-family: 'montserrat';
+  font-weight: 400;
+  font-size: 16px;
+}
+
+/* line 71, ../sass/patch.scss */
+.footer {
+  text-align: center;
+  background: transparent;
+  border: none;
+}
+/* line 75, ../sass/patch.scss */
+.footer img {
+  display: inline-block;
+  float: none;
 }
